@@ -30,5 +30,9 @@ yarn
 4. rode a aplicação 
 
 ```
-npm start ou ng s
+npm start
 ```
+
+```
+ ng s
+ ```
