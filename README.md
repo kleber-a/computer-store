@@ -1,38 +1,73 @@
-# Computer-Store
+<h1 align="center" style="font-weight: bold;">Computer-Store 🖥️</h1>
 
-Computer-store é um site de uma loja de informática desenvolvido em angular. [Click aqui](https://kleber-a.github.io/computer-store/) para ver a aplicação.
+<p align="center">
+ <a href="#tecnologias">Tecnologias</a> • 
+ <a href="#comecando">Como começar</a> • 
+</p>
 
-### 📋 Pré-requisitos
-Para iniciar o projeto será necessário ter instalado em sua máquina as seguintes ferramentas: [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). Além disto  um editor para trabalhar com o código como o VSCode.
+<p align="center">
+    <b>Computer-Store é uma aplicação web desenvolvida com Angular que simula uma loja de informática. Acesse o projeto online para visualizar o resultado final.</b>
+</p>
 
-## Executando
-1-Instale o angular na sua máquina
+<p align="center">
+    <a href="https://kleber-a.github.io/computer-store/">🌐 Acesse o projeto</a>
+</p>
 
-```
-npm install -g @angular/cli
-```
-2. Clone o repositório para sua máquina
+---
 
-```
+<h2 id="layout">🎨 Layout</h2>
+
+<p align="center">
+    <img src="/public/home.png" alt="Page Home" width="400px"> <br>
+    <img src="/public/game.png" alt="Page Game" width="400px"> <br>
+    <img src="/public/perfil.png" alt="Page Perfil" width="400px"> <br>
+</p>
+
+---
+
+<h2 id="tecnologias">💻 Tecnologias</h2>
+
+Este projeto foi desenvolvido utilizando as seguintes tecnologias:
+
+- [Angular](https://angular.io/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [SCSS](https://sass-lang.com/)
+- [Node.js](https://nodejs.org/)
+- [Git](https://git-scm.com/)
+
+---
+
+<h2 id="comecando">🚀 Como começar</h2>
+
+Siga os passos abaixo para rodar o projeto localmente.
+
+<h3>📋 Pré-requisitos</h3>
+
+- [Node.js](https://nodejs.org/)
+- [Git](https://git-scm.com/)
+- Editor de código, como o [Visual Studio Code](https://code.visualstudio.com/)
+
+<h3>📦 Clonando o projeto</h3>
+
+```bash
 git clone https://github.com/kleber-a/computer-store.git
 ```
 
-3. Instale as dependências com `npm` ou `yarn`
+<h3>💾 Instalando dependências</h3>
 
-```
+```bash
+cd computer-store
 npm install
+# ou
+yarn install
 ```
 
-```
-yarn
-```
+<h3>▶️ Iniciando a aplicação</h3>
 
-4. rode a aplicação 
-
-```
+```bash
+ng serve
+# ou
 npm start
 ```
 
-```
- ng s
- ```
+Acesse em http://localhost:4200
