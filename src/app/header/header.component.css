@@ -1,60 +1,86 @@
-.main-header {    
-    padding: 10px 0px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-    column-gap: 40px;
+.main-header {
+  padding: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 40px;
+  min-height: 64px;
+  padding: 0 20px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: white;
+
+  .search {
+    width: 40%;
+  }
+
 }
 
-.main-header__title {    
-    font-size: 80px;
-    letter-spacing: -1.5px;    
-}
-
-.main-header__title--blue {
-    color: var(--blue);
-    color: blue;
-    font-size:60px;
-}
-
-.main-header__title--orange {
-    color: var(--orange);
-    color: orange;
-    font-size:60px;
+.main-header__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: transparent;
+  background-image: linear-gradient(to right, #9333ea, #06b6d4);
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin: 0;
 }
 
 .main-header__menu ul {
-    display: flex;
-    justify-content: flex-end;
-    list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  gap: 5px;
 }
 
 .main-header__menu a {
-    padding: 10px 10px;
-    color: var(--gray);
-    font-weight: 400;
-    font-size: 22px;
-    text-decoration: none;
-    transition: all .3s ease-in-out;
+  padding: 10px 10px;
+  color: var(--gray);
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+  border-radius: 4px;
 }
 
 .main-header__menu a:hover {
-    background-color: var(--blue);
-    color: #fff;
-}
-
-.container-menu {
-    display: flex;
-    flex-direction: column;
-    row-gap: 20px;
-    flex: 1;
-    
+  background-color: rgba(109 40 217);
+  color: #fff;
 }
 
 .badge-carrinho {
-    background-color: var(--dark-blue);
-    padding: 5px 10px;    
-    border-radius: 4px;
-    color: white;
+  background-color: rgba(109 40 217 / 0.9);
+  font-size: 11px;
+  padding: 2px 6px;
+  color: white;
+  position: relative;
+  border-radius: 30px;
+  height: 16px;
+  right: 20px;
+  top: -13px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart {
+  gap: 4px;
+
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    i {
+      font-size: 16px;
+    }
+  }
 }

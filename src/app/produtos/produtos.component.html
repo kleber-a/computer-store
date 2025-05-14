@@ -1,17 +1,24 @@
 <section class="product-list">
+  <div class="product_featured">
+    <h2>Tecnologia de ponta a ponta</h2>
+    <p>Os melhores produtos de informática com os melhores preços e condições de pagamento.</p>
+  </div>
+
+  <h2 class="product-section-title">Nossos Produtos</h2>
+
+  <div class="container_list">
     <div class="product-list__card" *ngFor="let produto of produtos">
-        <a routerLink="/produtos/{{produto.id}}" class="product-list__link">
-            <img [src]="produto.imagem">
-            <h2 class="product-item__name">
-                {{produto.descricao}}
-            </h2>
-            <p class="product-item__price">
-                {{produto.preco | currency: "BRL"}}
-            </p>
-            <p class="product-item__price-description">
-                {{produto.descricaoPreco}}
-            </p>
-            <button class="product-item__buy-button" type="button">Comprar</button>
-        </a>
+      <a routerLink="/produtos/{{ produto.id }}" class="product-list__link">
+        <div class="product-list__image-wrapper">
+          <img [src]="produto.imagem" alt="{{ produto.descricao }}" />
+        </div>
+        <div class="product-list__info">
+          <h2 class="product-item__name">{{ produto.descricao }}</h2>
+          <p class="product-item__price">{{ produto.preco | currency: "BRL" }}</p>
+          <p class="product-item__price-description">{{ produto.descricaoPreco }}</p>
+          <button class="product-item__buy-button" type="button">Comprar</button>
+        </div>
+      </a>
     </div>
+  </div>
 </section>
