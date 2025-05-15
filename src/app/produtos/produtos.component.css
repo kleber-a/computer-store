@@ -13,21 +13,22 @@
   text-align: center;
   color: white;
 
-  h2 {
+}
+
+.product_featured p {
+  font-size: 1.125rem;
+  margin-top: 16px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #e0e7ff;
+}
+
+.product_featured h2 {
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 10px;
   }
-
-  p {
-    font-size: 1.125rem;
-    margin-top: 16px;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    color: #e0e7ff;
-  }
-}
 
 .product-section-title {
   text-align: center;

@@ -32,9 +32,9 @@
   border: none;
   color: var(--gray);
   font-size: 22px;
+}
 
-  i {
-    font-weight: 600;
-    font-size: 16px;
-  }
+.search-form button i {
+  font-weight: 600;
+  font-size: 16px;
 }

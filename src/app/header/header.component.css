@@ -12,10 +12,10 @@
   border-radius: 8px;
   background-color: white;
 
-  .search {
-    width: 40%;
-  }
+}
 
+.main-header .search {
+  width: 40%;
 }
 
 .main-header__title {
@@ -73,14 +73,14 @@ li {
 
 .cart {
   gap: 4px;
+}
 
-  a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.cart a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-    i {
-      font-size: 16px;
-    }
-  }
+.cart a i {
+  font-size: 16px;
 }
